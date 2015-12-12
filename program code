@@ -1,0 +1,6 @@
+Public Class Form1
+
+    Private Sub okBttn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles okBttn.Click
+        MsgBox("Hello " & NameTxtBox.Text & "!")
+    End Sub
+End Class
